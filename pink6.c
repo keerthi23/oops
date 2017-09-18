@@ -11,7 +11,7 @@ remainder=n%10;
 reversedInteger=reversedInteger*10 + remainder;
 n /= 10;
 }
-if(orinalInteger==reversedInteger)
+if(originalInteger==reversedInteger)
 printf("%d is a palindrome.",originalInteger);
 else
 printf("%d is not a palindrome.",originalInteger);
